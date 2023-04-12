@@ -1,0 +1,34 @@
+{
+  "name" : "Enhanced Grid Pro",
+  "version" : "23.1",
+  "description" : "United Codes Enhanced Grid Pro provides a spreadsheet user experience for APEX.  Enhanced Grid Pro is built on the Handsontable library - a JavaScript data grid that looks and feels like a spreadsheet.  Give your users Excel-like editing ability, including multi-line copy and paste, plus undo and redo functionality.",
+  "keywords" : ["Excel","Spreadsheet","Grid","Handsontable"],
+  "homepage" : "https://www.plug-ins-pro.com/",
+  "bugs" : {
+    "url" : "https://github.com/plug-ins-pro/enhanced-grid-pro/issues",
+    "email" : "info@plug-ins-pro.com"
+  },
+  "license" : "Commercial",
+  "commercial" : "Yes",
+  "author" : {
+    "name" : "United Codes",
+    "email" : "info@plug-ins-pro.com",
+    "url" : "https://www.united-codes.com/"
+  },
+  "repository" : {
+    "type" : "git",
+    "url" : "https://github.com/plug-ins-pro/enhanced-grid-pro"
+  },
+ "oracle" : {
+    "versions" : ["12.x", "18.x", "19.x", "21.x"],
+    "apex" : {
+      "versions" : ["19.2.0", "20.1.0", "20.2.0", "21.1.0", "21.2.0", "22.1.0", "22.2.0", "23.1.0"],
+      "plugin" : {
+        "internalName" : "UNITEDCODES_GRID",
+        "type" : "region",
+        "demo" : "https://www.plug-ins-pro.com/ords/pluginspro_web/r/enhanced_grid_pro/home",
+        "previewImage" : "https://www.apexrnd.be/ords/r/pluginspro_web/750/files/static/v35/enhanced_grid_pro.gif"
+      }
+    }
+  }
+}
